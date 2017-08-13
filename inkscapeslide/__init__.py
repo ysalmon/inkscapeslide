@@ -250,3 +250,6 @@ layer name. The opacity must be between 0 and 1. Example:
     if joinedpdf:
         for pdfslide in pdfslides:
             os.unlink(pdfslide)
+
+if __name__ == "__main__" :
+    main()
